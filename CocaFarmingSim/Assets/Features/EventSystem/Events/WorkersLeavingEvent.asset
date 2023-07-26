@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b466d6b203964ea899c314de029005d7, type: 3}
+  m_Name: WorkersLeavingEvent
+  m_EditorClassIdentifier: 
+  eventName: Workers Leaving
+  storyContent: Because of low worker morale due to severe conditions, some workers
+    revolt. They have quit and stole some money as well.
+  eventIcon: {fileID: 21300000, guid: 65f1a81fb234e0142a436d8335bfbdc0, type: 3}
+  eventModifiers: 0100000007000000
+  eventModifierValues:
+  - 30
+  - 100
+  initProbability: 50
+  additionalProbabilityAfterFail: 50

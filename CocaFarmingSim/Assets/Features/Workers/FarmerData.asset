@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54c6daa993f44f909c56a5b547793aa4, type: 3}
+  m_Name: FarmerData
+  m_EditorClassIdentifier: 
+  workerPrefab: {fileID: 5905249573941136164, guid: 00a795fe8b00e854799abe2c8eec97d6, type: 3}
+  workerUIElementPrefab: {fileID: 7392623222335164237, guid: d32419e484be516498620035d7f6c75f, type: 3}
+  type: 0
+  minSalary: 3
+  maxSalary: 6
+  baseLaborRechargePerSecond: 4
+  maxLabor: 20
